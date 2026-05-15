@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Pages principales -->
+  <url><loc>https://xpertise-depannage.fr/</loc><changefreq>monthly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://xpertise-depannage.fr/a-propos.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://xpertise-depannage.fr/contact.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://xpertise-depannage.fr/mentions-legales.html</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://xpertise-depannage.fr/politique-confidentialite.html</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <!-- Pages services plomberie -->
+  <url><loc>https://xpertise-depannage.fr/services/depannage-plomberie-lyon.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://xpertise-depannage.fr/services/urgence-plomberie-lyon.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://xpertise-depannage.fr/services/reparation-fuite-eau-lyon.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://xpertise-depannage.fr/services/remplacement-chauffe-eau-lyon.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <!-- Pages services électricité -->
+  <url><loc>https://xpertise-depannage.fr/services/depannage-electricite-lyon.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://xpertise-depannage.fr/services/urgence-electricite-lyon.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://xpertise-depannage.fr/services/recherche-panne-electrique-lyon.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://xpertise-depannage.fr/services/remplacement-tableau-electrique-lyon.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://xpertise-depannage.fr/services/mise-en-securite-electrique-lyon.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <!-- Pages locales — Lyon et arrondissements -->
+  <url><loc>https://xpertise-depannage.fr/local/depannage-lyon.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://xpertise-depannage.fr/local/depannage-lyon-1.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://xpertise-depannage.fr/local/depannage-lyon-2.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://xpertise-depannage.fr/local/depannage-lyon-3.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://xpertise-depannage.fr/local/depannage-lyon-4.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://xpertise-depannage.fr/local/depannage-lyon-5.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://xpertise-depannage.fr/local/depannage-lyon-6.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://xpertise-depannage.fr/local/depannage-lyon-7.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://xpertise-depannage.fr/local/depannage-lyon-8.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://xpertise-depannage.fr/local/depannage-lyon-9.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <!-- Pages locales — Communes de la métropole -->
+  <url><loc>https://xpertise-depannage.fr/local/depannage-metropole-lyon.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://xpertise-depannage.fr/local/depannage-villeurbanne.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://xpertise-depannage.fr/local/depannage-venissieux.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://xpertise-depannage.fr/local/depannage-vaulx-en-velin.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://xpertise-depannage.fr/local/depannage-saint-priest.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://xpertise-depannage.fr/local/depannage-caluire-et-cuire.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://xpertise-depannage.fr/local/depannage-bron.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://xpertise-depannage.fr/local/depannage-oullins.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://xpertise-depannage.fr/local/depannage-rillieux-la-pape.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://xpertise-depannage.fr/local/depannage-decines-charpieu.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://xpertise-depannage.fr/local/depannage-tassin-la-demi-lune.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://xpertise-depannage.fr/local/depannage-saint-foy-les-lyon.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://xpertise-depannage.fr/local/depannage-saint-genis-laval.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://xpertise-depannage.fr/local/depannage-givors.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://xpertise-depannage.fr/local/depannage-saint-fons.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://xpertise-depannage.fr/local/depannage-ecully.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://xpertise-depannage.fr/local/depannage-francheville.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://xpertise-depannage.fr/local/depannage-mions.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://xpertise-depannage.fr/local/depannage-craponne.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://xpertise-depannage.fr/local/depannage-chassieu.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://xpertise-depannage.fr/local/depannage-corbas.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+</urlset>

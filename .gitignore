@@ -1,0 +1,26 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Éditeurs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+npm-debug.log*
+
+# Dépendances éventuelles
+node_modules/
+
+# Fichiers temporaires
+*.tmp
+*.bak
+
+# Dossier outputs de build local éventuel
+/dist/
+/build/
