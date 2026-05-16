@@ -28,11 +28,15 @@
       "@type": ["LocalBusiness", "Plumber", "Electrician"],
       "@id": "https://xpertise-depannage.fr/#business",
       "name": "Xpertise Dépannage",
+      "alternateName": ["Xpertise Dépannage Lyon", "Plombier Lyon Xpertise", "Électricien Lyon Xpertise"],
       "url": "https://xpertise-depannage.fr/",
       "telephone": "+33646721796",
       "email": "contact@xpertise-depannage.fr",
       "image": "https://xpertise-depannage.fr/assets/img/og-image.jpg",
+      "logo": "https://xpertise-depannage.fr/assets/img/logo.png",
       "priceRange": "€€",
+      "currenciesAccepted": "EUR",
+      "paymentAccepted": "Cash, Chèque, Virement bancaire, Carte bancaire",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Lyon",
@@ -40,15 +44,124 @@
         "addressRegion": "Auvergne-Rhône-Alpes",
         "addressCountry": "FR"
       },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "45.7640",
+        "longitude": "4.8357"
+      },
       "areaServed": [
-        {"@type":"City","name":"Lyon"},
-        {"@type":"City","name":"Villeurbanne"},
+        {"@type":"City","name":"Lyon","sameAs":"https://www.wikidata.org/wiki/Q456"},
+        {"@type":"City","name":"Villeurbanne","sameAs":"https://www.wikidata.org/wiki/Q178370"},
         {"@type":"City","name":"Caluire-et-Cuire"},
         {"@type":"City","name":"Tassin-la-Demi-Lune"},
         {"@type":"City","name":"Bron"},
-        {"@type":"City","name":"Vénissieux"}
+        {"@type":"City","name":"Vénissieux"},
+        {"@type":"City","name":"Saint-Priest"},
+        {"@type":"City","name":"Décines-Charpieu"},
+        {"@type":"City","name":"Écully"},
+        {"@type":"City","name":"Oullins"},
+        {"@type":"City","name":"Sainte-Foy-lès-Lyon"},
+        {"@type":"City","name":"Vaulx-en-Velin"},
+        {"@type":"City","name":"Meyzieu"},
+        {"@type":"City","name":"Francheville"},
+        {"@type":"City","name":"Craponne"}
       ],
-      "description": "Entreprise locale de dépannage plomberie et électricité à Lyon et dans la métropole lyonnaise. Interventions urgentes et programmées pour particuliers, propriétaires, syndics et professionnels."
+      "description": "Xpertise Dépannage est une entreprise locale de dépannage plomberie et électricité à Lyon et dans la métropole lyonnaise. Nous intervenons rapidement pour les particuliers, propriétaires bailleurs, agences immobilières et syndics. Services : réparation fuite d'eau, remplacement chauffe-eau, dépannage électrique, recherche de panne, remplacement tableau électrique, mise en sécurité électrique.",
+      "knowsAbout": [
+        "Dépannage plomberie Lyon",
+        "Réparation fuite d'eau",
+        "Remplacement chauffe-eau Lyon",
+        "Dépannage électricité Lyon",
+        "Recherche de panne électrique",
+        "Remplacement tableau électrique",
+        "Mise en sécurité électrique",
+        "Urgence plomberie Lyon",
+        "Urgence électricité Lyon",
+        "Robinetterie",
+        "Débouchage canalisation"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Services de dépannage plomberie et électricité",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Dépannage plomberie Lyon",
+              "url": "https://xpertise-depannage.fr/services/depannage-plomberie-lyon.html",
+              "description": "Intervention rapide pour toute panne de plomberie : fuite d'eau, robinetterie, WC, chauffe-eau."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Réparation fuite d'eau Lyon",
+              "url": "https://xpertise-depannage.fr/services/reparation-fuite-eau-lyon.html",
+              "description": "Détection et réparation de fuite d'eau visible ou cachée à Lyon et métropole."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Remplacement chauffe-eau Lyon",
+              "url": "https://xpertise-depannage.fr/services/remplacement-chauffe-eau-lyon.html",
+              "description": "Remplacement de chauffe-eau électrique ou thermodynamique à Lyon."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Dépannage électricité Lyon",
+              "url": "https://xpertise-depannage.fr/services/depannage-electricite-lyon.html",
+              "description": "Dépannage électrique rapide : panne, disjoncteur, tableau électrique, prises."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Remplacement tableau électrique Lyon",
+              "url": "https://xpertise-depannage.fr/services/remplacement-tableau-electrique-lyon.html",
+              "description": "Mise aux normes et remplacement de tableau électrique vétuste à Lyon."
+            }
+          }
+        ]
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+          "opens": "08:00",
+          "closes": "19:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "08:00",
+          "closes": "17:00"
+        }
+      ],
+      "sameAs": [
+        "https://xpertise-renovation.fr/"
+      ],
+      "parentOrganization": {
+        "@type": "Organization",
+        "name": "Xpertise Rénovation",
+        "url": "https://xpertise-renovation.fr/"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://xpertise-depannage.fr/#website",
+      "url": "https://xpertise-depannage.fr/",
+      "name": "Xpertise Dépannage",
+      "description": "Dépannage plomberie et électricité à Lyon et métropole lyonnaise",
+      "inLanguage": "fr-FR",
+      "publisher": {"@id": "https://xpertise-depannage.fr/#business"}
     }
   ]
 }
@@ -112,6 +225,7 @@
         <li><a href="#serrurerie">Serrurerie</a></li>
         <li><a href="a-propos.html">À propos</a></li>
         <li><a href="blog/index.html">Blog</a></li>
+        <li><a href="faq.html">FAQ</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>

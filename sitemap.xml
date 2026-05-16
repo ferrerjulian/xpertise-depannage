@@ -4,6 +4,7 @@
   <url><loc>https://xpertise-depannage.fr/</loc><changefreq>monthly</changefreq><priority>1.0</priority></url>
   <url><loc>https://xpertise-depannage.fr/a-propos.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://xpertise-depannage.fr/contact.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://xpertise-depannage.fr/faq.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://xpertise-depannage.fr/mentions-legales.html</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url><loc>https://xpertise-depannage.fr/politique-confidentialite.html</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <!-- Pages services plomberie -->
