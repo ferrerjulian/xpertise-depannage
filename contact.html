@@ -91,25 +91,36 @@
       <div>
         <h2>Décrivez votre besoin</h2>
         <p>Remplissez ce formulaire en quelques minutes&nbsp;: nous revenons vers vous pour cadrer l'intervention. Pour les urgences, le téléphone reste le moyen le plus rapide.</p>
-        <form action="mailto:contact@xpertise-depannage.fr" method="post" enctype="text/plain">
+
+        <!-- Message de confirmation -->
+        <div id="form-succes" style="display:none; background:#e8f5e9; border-left:4px solid #4CAF50; padding:16px 20px; border-radius:6px; margin-bottom:20px;">
+          <strong>✅ Message envoyé !</strong> Nous vous recontactons dans les plus brefs délais. Pour toute urgence, appelez directement le <a href="tel:+33646721796">06 46 72 17 96</a>.
+        </div>
+        <div id="form-erreur" style="display:none; background:#fff3e0; border-left:4px solid #FF9800; padding:16px 20px; border-radius:6px; margin-bottom:20px;">
+          <strong>⚠️ Une erreur s'est produite.</strong> Merci de réessayer ou de nous contacter directement au <a href="tel:+33646721796">06 46 72 17 96</a>.
+        </div>
+
+        <form action="contact-form.php" method="post">
+          <!-- Honeypot anti-spam (invisible) -->
+          <input type="text" name="website" style="display:none" tabindex="-1" autocomplete="off">
           <div class="form-row">
             <div class="form-group">
               <label for="nom">Nom *</label>
-              <input id="nom" name="Nom" type="text" required>
+              <input id="nom" name="Nom" type="text" required autocomplete="family-name">
             </div>
             <div class="form-group">
               <label for="prenom">Prénom *</label>
-              <input id="prenom" name="Prénom" type="text" required>
+              <input id="prenom" name="Prénom" type="text" required autocomplete="given-name">
             </div>
           </div>
           <div class="form-row">
             <div class="form-group">
               <label for="email">Email *</label>
-              <input id="email" name="Email" type="email" required>
+              <input id="email" name="Email" type="email" required autocomplete="email">
             </div>
             <div class="form-group">
               <label for="telephone">Téléphone *</label>
-              <input id="telephone" name="Téléphone" type="tel" required>
+              <input id="telephone" name="Téléphone" type="tel" required autocomplete="tel">
             </div>
           </div>
           <div class="form-row">
@@ -140,6 +151,18 @@
           <button type="submit" class="btn btn-primary btn-large">Envoyer ma demande</button>
           <p class="form-note">Vos informations sont utilisées uniquement pour traiter votre demande. Voir notre <a href="politique-confidentialite.html">politique de confidentialité</a>.</p>
         </form>
+
+        <script>
+          // Affichage des messages selon paramètre URL
+          const params = new URLSearchParams(window.location.search);
+          if (params.get('envoi') === 'ok') {
+            document.getElementById('form-succes').style.display = 'block';
+            window.history.replaceState({}, '', 'contact.html');
+          } else if (params.get('erreur')) {
+            document.getElementById('form-erreur').style.display = 'block';
+            window.history.replaceState({}, '', 'contact.html');
+          }
+        </script>
       </div>
       <aside>
         <div class="contact-info-card">
