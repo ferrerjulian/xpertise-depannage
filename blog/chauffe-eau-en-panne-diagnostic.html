@@ -8,8 +8,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Chauffe-eau en panne : diagnostic et que faire ? | Xpertise Dépannage Lyon</title>
   <meta name="description" content="Votre chauffe-eau ne chauffe plus à Lyon ? Apprenez à identifier la panne, ce que vous pouvez vérifier vous-même et quand appeler un plombier. Intervention rapide sur Lyon.">
-  <link rel="canonical" href="https://xpertise-depannage.fr/blog/chauffe-eau-en-panne-diagnostic.html">
-  <link rel="stylesheet" href="../assets/css/style.css">
+  <meta name="robots" content="index, follow">
+<link rel="canonical" href="https://xpertise-depannage.fr/blog/chauffe-eau-en-panne-diagnostic.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/style.css">
 
   <script type="application/ld+json">
   {
@@ -82,23 +86,55 @@
 <body>
 
 <header class="site-header">
-  <div class="container header-inner">
-    <a href="../index.html" class="logo">
-      <span class="logo-icon">🔧</span>
-      <span class="logo-text">Xpertise <strong>Dépannage</strong></span>
+  <div class="header-inner">
+    <a href="../index.html" class="logo" aria-label="Xpertise Dépannage - Accueil">
+      <span class="logo-mark">X</span>
+      <span class="logo-text">Xpertise<small>Dépannage</small></span>
     </a>
-    <nav class="main-nav" aria-label="Navigation principale">
+    <nav class="nav-main" aria-label="Navigation principale">
       <ul>
-        <li><a href="../plomberie.html">Plomberie</a></li>
-        <li><a href="../electricite.html">Électricité</a></li>
-        <li><a href="../zones.html">Zones</a></li>
-        <li><a href="../about.html">À propos</a></li>
+        <li><a href="../index.html">Accueil</a></li>
+        <li class="has-submenu">
+          <a href="../services/depannage-plomberie-lyon.html">Plomberie</a>
+          <ul class="submenu">
+            <li><a href="../services/depannage-plomberie-lyon.html">Dépannage plomberie</a></li>
+            <li><a href="../services/urgence-plomberie-lyon.html">Urgence plomberie</a></li>
+            <li><a href="../services/reparation-fuite-eau-lyon.html">Réparation fuite d'eau</a></li>
+            <li><a href="../services/remplacement-chauffe-eau-lyon.html">Remplacement chauffe-eau</a></li>
+          </ul>
+        </li>
+        <li class="has-submenu">
+          <a href="../services/depannage-electricite-lyon.html">Électricité</a>
+          <ul class="submenu">
+            <li><a href="../services/depannage-electricite-lyon.html">Dépannage électricité</a></li>
+            <li><a href="../services/urgence-electricite-lyon.html">Urgence électricité</a></li>
+            <li><a href="../services/recherche-panne-electrique-lyon.html">Recherche de panne</a></li>
+            <li><a href="../services/remplacement-tableau-electrique-lyon.html">Tableau électrique</a></li>
+            <li><a href="../services/mise-en-securite-electrique-lyon.html">Mise en sécurité</a></li>
+          </ul>
+        </li>
+        <li class="has-submenu">
+          <a href="../local/depannage-metropole-lyon.html">Zones</a>
+          <ul class="submenu">
+            <li><a href="../local/depannage-villeurbanne.html">Villeurbanne</a></li>
+            <li><a href="../local/depannage-bron.html">Bron</a></li>
+            <li><a href="../local/depannage-caluire-et-cuire.html">Caluire-et-Cuire</a></li>
+            <li><a href="../local/depannage-saint-priest.html">Saint-Priest</a></li>
+            <li><a href="../local/depannage-tassin-la-demi-lune.html">Tassin-la-Demi-Lune</a></li>
+            <li><a href="../local/depannage-metropole-lyon.html"><strong>→ Toutes les zones</strong></a></li>
+          </ul>
+        </li>
+        <li><a href="../a-propos.html">À propos</a></li>
         <li><a href="../blog/index.html" class="active">Blog</a></li>
         <li><a href="../faq.html">FAQ</a></li>
         <li><a href="../contact.html">Contact</a></li>
       </ul>
     </nav>
-    <a href="tel:+33646721796" class="btn btn-primary btn-sm header-cta">📞 Appeler</a>
+    <a href="tel:+33646721796" class="btn-call-header">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20 15.5c-1.25 0-2.45-.2-3.57-.57a1 1 0 00-1.02.24l-2.2 2.2a15.05 15.05 0 01-6.59-6.59l2.2-2.21a.96.96 0 00.25-1A11.36 11.36 0 018.5 4a1 1 0 00-1-1H4a1 1 0 00-1 1c0 9.39 7.61 17 17 17a1 1 0 001-1v-3.5a1 1 0 00-1-1z"/></svg>
+      06 46 72 17 96
+    </a>
+    <button class="menu-toggle" aria-label="Menu" aria-expanded="false">☰</button>
   </div>
 </header>
 
@@ -128,7 +164,7 @@
   <article class="article-body">
 
     <figure style="margin:0 0 2rem;border-radius:10px;overflow:hidden;box-shadow:0 4px 16px rgba(0,0,0,.1);">
-      <img src="https://plus.unsplash.com/premium_photo-1663013675008-bd5a7898ac4f?auto=format&fit=crop&w=1200&q=80" alt="Plombier intervenant sur un chauffe-eau — dépannage chauffe-eau Lyon" loading="lazy" style="width:100%;height:380px;object-fit:cover;display:block;">
+      <img src="https://plus.unsplash.com/premium_photo-1663013675008-bd5a7898ac4f?auto=format&fit=crop&w=1200&q=80" alt="Plombier intervenant sur un chauffe-eau — dépannage chauffe-eau Lyon" width="1200" height="380" loading="eager" fetchpriority="high" style="width:100%;height:380px;object-fit:cover;display:block;">
     </figure>
 
     <h2>Les 5 pannes les plus fréquentes sur un chauffe-eau électrique</h2>
@@ -245,7 +281,17 @@
       <p>Diagnostic et intervention rapide sur Lyon et toute la métropole lyonnaise.</p>
       <a href="tel:+33646721796" class="btn btn-primary btn-block">📞 06 46 72 17 96</a>
       <a href="../contact.html" class="btn btn-secondary btn-block">Devis en ligne</a>
+    
+    <div class="sidebar-card">
+      <h3>Services plomberie</h3>
+      <ul>
+        <li><a href="../services/remplacement-chauffe-eau-lyon.html">→ Remplacement chauffe-eau Lyon</a></li>
+        <li><a href="../services/depannage-plomberie-lyon.html">→ Dépannage plomberie Lyon</a></li>
+        <li><a href="../services/urgence-plomberie-lyon.html">→ Urgence plomberie Lyon</a></li>
+        <li><a href="../services/reparation-fuite-eau-lyon.html">→ Réparation fuite d'eau</a></li>
+      </ul>
     </div>
+</div>
     <div class="sidebar-links">
       <h4>Articles liés</h4>
       <ul>
@@ -257,25 +303,69 @@
     </div>
   </aside>
 </div>
+<section class="xpertise-univers">
+  <div class="container">
+    <div class="xpertise-univers-inner">
+      <div class="xpertise-univers-text">
+        <p class="xpertise-univers-label">Univers Xpertise</p>
+        <p class="xpertise-univers-desc">Xpertise Dépannage fait partie de la famille Xpertise, entreprise de confiance dans le bâtiment à Lyon depuis plusieurs années.</p>
+      </div>
+      <a href="https://xpertise-renovation.fr/" target="_blank" rel="noopener" class="xpertise-univers-link">
+        <span class="logo-mark" style="font-size:1.2rem;">X</span>
+        <span>Découvrir <strong>Xpertise Rénovation</strong></span>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
 
 <footer class="site-footer">
-  <div class="container footer-inner">
-    <div class="footer-brand">
-      <span class="logo-text">Xpertise <strong>Dépannage</strong></span>
-      <p>Plomberie · Électricité · Lyon & métropole</p>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <div class="logo" style="color:#fff;margin-bottom:1rem;"><span class="logo-mark">X</span><span class="logo-text" style="color:#fff;">Xpertise<small>Dépannage</small></span></div>
+        <p>Dépannage plomberie et électricité à Lyon et dans la métropole lyonnaise.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Plomberie</h4>
+        <ul>
+          <li><a href="../services/depannage-plomberie-lyon.html">Dépannage plomberie</a></li>
+          <li><a href="../services/urgence-plomberie-lyon.html">Urgence plomberie</a></li>
+          <li><a href="../services/reparation-fuite-eau-lyon.html">Fuite d'eau</a></li>
+          <li><a href="../services/remplacement-chauffe-eau-lyon.html">Chauffe-eau</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Électricité</h4>
+        <ul>
+          <li><a href="../services/depannage-electricite-lyon.html">Dépannage électricité</a></li>
+          <li><a href="../services/urgence-electricite-lyon.html">Urgence électricité</a></li>
+          <li><a href="../services/remplacement-tableau-electrique-lyon.html">Tableau électrique</a></li>
+          <li><a href="../services/mise-en-securite-electrique-lyon.html">Mise en sécurité</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Entreprise</h4>
+        <ul>
+          <li><a href="../a-propos.html">À propos</a></li>
+          <li><a href="../contact.html">Contact</a></li>
+          <li><a href="../blog/index.html">Blog &amp; Conseils</a></li>
+          <li><a href="../local/depannage-metropole-lyon.html">Métropole de Lyon</a></li>
+          <li><a href="../mentions-legales.html">Mentions légales</a></li>
+          <li class="footer-xpertise-link"><a href="https://xpertise-renovation.fr/" target="_blank" rel="noopener" style="color:var(--color-accent);">↗ Xpertise Rénovation</a></li>
+        </ul>
+      </div>
     </div>
-    <nav class="footer-nav">
-      <a href="../plomberie.html">Plomberie</a>
-      <a href="../electricite.html">Électricité</a>
-      <a href="../zones.html">Zones</a>
-      <a href="../blog/index.html">Blog</a>
-      <a href="../faq.html">FAQ</a>
-      <a href="../contact.html">Contact</a>
-      <a href="../mentions-legales.html">Mentions légales</a>
-    </nav>
-    <p class="footer-copy">© 2026 Xpertise Dépannage · Lyon · <a href="tel:+33646721796">06 46 72 17 96</a></p>
+    <div class="footer-bottom">
+      <div>© <span id="year">2026</span> Xpertise Dépannage — Lyon &amp; métropole lyonnaise</div>
+      <div><a href="tel:+33646721796">06 46 72 17 96</a> · <a href="mailto:contact@xpertise-depannage.fr">contact@xpertise-depannage.fr</a></div>
+    </div>
   </div>
 </footer>
-
+<div class="mobile-cta">
+  <a href="tel:+33646721796" class="btn btn-primary">📞 Appeler</a>
+  <a href="../contact.html" class="btn btn-outline">Devis</a>
+</div>
+<script src="../assets/js/main.js"></script>
 </body>
 </html>
