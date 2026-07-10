@@ -1,0 +1,8 @@
+# Forcer HTTPS
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Supprimer le www (optionnel - redirige www vers sans www)
+RewriteCond %{HTTP_HOST} ^www\.xpertise-depannage\.fr [NC]
+RewriteRule ^(.*)$ https://xpertise-depannage.fr/$1 [L,R=301]
